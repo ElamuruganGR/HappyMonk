@@ -1,0 +1,32 @@
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 71px;
+    top: 41px;
+    display: flex;
+    .text {
+        width: 125px;
+        height: 22px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+    }
+    .exponent {
+        width: 19px;
+        height: 22px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+    }
+}

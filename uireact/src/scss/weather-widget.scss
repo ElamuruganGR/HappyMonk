@@ -1,0 +1,65 @@
+.weather-widget {
+    position: absolute;
+    width: 314px;
+    height: 331px;
+    left: 1078px;
+    top: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+    .weather-desc {
+        position: absolute;
+        width: 179px;
+        height: 158px;
+        margin: 36px 0px 0px 36px;
+        p {
+            margin: 0px;
+            &:nth-child(1) {
+                position: absolute;
+                width: 179px;
+                height: 64px;
+                // left: 1114px;
+                // top: 236px;
+                font-family: Averta;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 32px;
+                letter-spacing: -0.06em;
+                color: #FFFFFF;
+            }
+            &:nth-child(2) {
+                position: absolute;
+                width: 150px;
+                height: 20px;
+                // left: 1115px;
+                top: 70px;
+                font-family: Averta;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.06em;
+                color: #FFFFFF;
+            }
+            &:nth-child(3) {
+                position: absolute;
+                width: 67px;
+                height: 59px;
+                // left: 1115px;
+                top: 101px;
+                font-family: Averta;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 59px;
+                letter-spacing: -0.06em;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .add-city {
+        position: absolute;
+        left: 163px;
+        top: 206px;
+    }
+}

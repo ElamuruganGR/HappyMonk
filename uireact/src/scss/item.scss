@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 56px;
+    .selector {
+        width: 3px;
+        height: 32px;
+        background: #3D41D7;
+        border-radius: 0px 100px 100px 0px;
+    }
+    .icon-and-text {
+        margin-left: 24px;
+        width: 178px;
+        height: 24px;
+        display: flex;
+        .icon {
+            width: 24px;
+            height: 24px;
+            // left: 24px;
+            // top: calc(50% - 24px/2);            
+        }
+        .text {
+            height: 24px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            color: #D3D3FD;
+            margin-left: 16px;
+        }
+    }
+    &:hover {
+        .selector {
+            background: #D3D3FD;
+        }
+    }
+}

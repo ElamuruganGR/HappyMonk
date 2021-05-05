@@ -1,0 +1,70 @@
+.donut-chart-widget {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 408px;
+    top: 63px;
+    img {
+        position: absolute;
+        left: -60px;
+        &:nth-child(1) {
+            top: -45px;
+        }
+        &:nth-child(2) {
+            top: -60px;
+        }
+    }
+    .pile-desc {
+        position: absolute;
+        width: 121px;
+        height: 98px;
+        // left: 842px;
+        // top: 723px;
+        span {
+            margin: 0px;
+        }
+        .percentile-number {
+            position: absolute;
+            left: 68px;
+            top: 76px;
+            margin: 0px;
+            height: 55px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 55px;
+            text-align: center;
+            color: #3D41D7;
+        }
+        .percentile-symbol {
+            position: absolute;
+            left: 125px;
+            top: 80px;
+            margin: 0px;
+            height: 55px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 55px;
+            text-align: center;
+            color: #3D41D7;
+        }
+        .text {
+            position: absolute;
+            left: 56px;
+            top: 119px;
+            margin: 0px;
+            width: 121px;
+            height: 55px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 55px;
+            text-align: center;
+            color: #8F92A1;
+        }
+    }
+}
